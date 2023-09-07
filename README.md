@@ -16,3 +16,16 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 ## Dependency Management
 
 The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+
+
+
+
+Project by: Alma Ordaz
+
+Descriptions: This project includes two ways to encode/decode a phrase. CesarCipher will output all possible ways to either encode or decode
+              the given lowercase word. VigenereCipher will output the encoded word by adding the key and will output the decoded word when subtracting the key.
+
+Sources:
+    - https://www.upgrad.com/blog/char-array-in-java/ 
+    - https://www.systutorials.com/how-to-print-a-line-to-stderr-and-stdout-in-java/
+    - Joshua De la Rosa
