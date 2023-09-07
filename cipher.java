@@ -7,7 +7,14 @@ public class cipher {
   //need to fix for negative num
   public static char charArithmetic(char character, int key){
     int base = (int) 'a';
-    int result = ((character - base) + key) % 26;
+    int movement = ((character - base) + (key));
+    int result;
+
+    result = movement % 26;
+
+    if(result < 0){
+      result += 26;
+    }//if
 
     return (char) (result + base);
   }
@@ -70,7 +77,8 @@ public class cipher {
   
 
   public static void main(String[] args){
-    CesarCipher(args[0], args[1]);
+    //CesarCipher(args[0], args[1]);
+    VigenereCipher(args[0], args[1], args[2]);
 
 }
 
