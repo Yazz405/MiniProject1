@@ -43,7 +43,7 @@ public class CesarCipher {
       System.err.println("Incorrect number of parameters");
       System.exit(2);
     }//if
-    if((args[0] != "encode") || (args[0] != "decode")){
+    if(!((args[0].equals("encode")) || (args[0].equals("decode")))){
       System.err.println("Valid options are \"encode\" or \"decode\"");
       System.exit(1);
     }//if
